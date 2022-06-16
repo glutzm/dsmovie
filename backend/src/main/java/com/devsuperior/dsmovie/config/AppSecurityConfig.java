@@ -16,7 +16,7 @@ import java.util.Arrays;
 
 @Configuration
 @EnableWebSecurity
-public class SecurityConfig extends WebSecurityConfigurerAdapter {
+public class AppSecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Autowired
     private Environment env;
