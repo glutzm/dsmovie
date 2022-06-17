@@ -1,5 +1,6 @@
 package com.devsuperior.dsmovie.entities;
 
+import lombok.Data;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -8,9 +9,7 @@ import javax.persistence.EmbeddedId;
 import javax.persistence.Entity;
 import javax.persistence.Table;
 
-@NoArgsConstructor
-@Getter
-@Setter
+@Data
 @Entity
 @Table(name = "tb_score")
 public class Score {
