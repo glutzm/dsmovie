@@ -7,7 +7,6 @@ import lombok.Setter;
 import javax.persistence.Embeddable;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
-import java.io.Serial;
 import java.io.Serializable;
 
 @NoArgsConstructor
@@ -16,7 +15,6 @@ import java.io.Serializable;
 @Embeddable
 public class ScorePK implements Serializable {
 
-    @Serial
     private static final long serialVersionUID = 5887642920026933151L;
 
     @ManyToOne
